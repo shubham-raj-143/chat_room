@@ -1,0 +1,460 @@
+
+.logo
+{
+    margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    filter: drop-shadow(2px 3.5px 5px rgb(231, 7, 7));
+    /* animation: animateGradient 5s ease 1; */
+    animation-delay:         0.5s;
+    animation-name: logoGrad;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes logoGrad {
+  100% {
+    filter: drop-shadow(2px 3.5px 5px rgb(231, 7, 7));
+  }
+
+  75% {
+   filter: drop-shadow(2px 3.5px 5px rgb(197, 23, 23));
+  }
+   50% {
+   filter: drop-shadow(2px 3.5px 5px rgb(139, 39, 39));
+  }
+   25% {
+   filter: drop-shadow(2px 3.5px 5px rgb(189, 18, 18));
+  }
+
+  0% {
+   filter: drop-shadow(2px 3.5px 5px rgb(231, 7, 7));
+  }
+}
+.logo:hover
+{
+   transition: all .6s ease-in-out;
+   transform: scale(1.2);
+}
+
+/* .container
+{
+    max-width: 970px;
+    border: 15px solid silver;
+    margin: auto; */
+    /* border-radius: 12px; */
+    /* height: 65vh;
+    padding: 33px;
+    overflow-y:auto ;
+    margin-bottom: 20px;
+
+} */
+.container {
+    max-width: 970px;
+    padding: 1rem;
+    color: rgb(14, 13, 13);
+    border-width: 10px;
+    border-style: solid;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow:auto;
+    margin-bottom: 20px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(0, 0, 0, 0),
+      rgb(172, 22, 22), 
+      red, 
+      rgb(172, 22, 22), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.message
+{
+    background-color: rgb(248, 237, 237);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    filter: drop-shadow(2px 3.5px 4.5px rgba(104, 98, 98, 0.911));
+
+}
+.message:hover
+{   cursor: pointer;
+    background-color: silver;
+    color: silver;
+    border: 2px solid rgb(189, 185, 185);
+    font-weight: bold;
+}
+
+.left
+{
+    color: rgb(248, 237, 237);
+    float: left;
+    clear: both;
+}
+.right
+{
+    float: right;
+    clear: both;
+}
+#send-container
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageinp
+{
+    width: 75%;
+    border: 2px solid silver;
+    border-radius: 6px;
+    height: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    outline: none;
+    
+}
+.btn
+{
+    width: 10%;
+    cursor: pointer;
+    height: 60px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    margin: 2px;
+    outline:none;
+    border: none;
+    box-shadow: none; 
+}
+#send_btn
+{
+    color: rgb(221, 209, 209);
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+#send_btn:hover
+{
+    color: rgb(241, 241, 241);
+    transition: all .4s ease-in-out;
+    transform: scale(0.85);
+}
+.send
+{
+    outline: none;
+    margin-right: 70px;
+}
+#secrete_mode_btn
+{
+    color: rgb(221, 209, 209);
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none; 
+}
+#secrete_mode_btn:hover
+{
+    color: rgb(245, 245, 245);
+    transition: all .4s ease-in-out;
+    transform: scale(0.85);
+}
+
+body{
+    background: linear-gradient(to bottom,  rgb(14, 13, 13) 0%,rgb(34, 33, 33) 25%,
+    rgb(27, 26, 26) 50%,rgb(47, 46, 46) 75%,rgb(93, 89, 89) 100%);
+     /* background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(118,191,36,1) 25%, rgba(224,117,35,1) 50%, rgba(242,38,42,1) 75%, rgba(130,100,70,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(25%,rgba(118,191,36,1)), color-stop(50%,rgba(224,117,35,1)), color-stop(75%,rgba(242,38,42,1)), color-stop(100%,rgba(130,100,70,1)));
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(118,191,36,1) 25%,rgba(224,117,35,1) 50%,rgba(242,38,42,1) 75%,rgba(130,100,70,1) 100%);   
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(118,191,36,1) 25%,rgba(224,117,35,1) 50%,rgba(242,38,42,1) 75%,rgba(130,100,70,1) 100%);
+    background-size: 100% 400%;
+    background-position:0 0;
+    -webkit-animation: animateGradient 5s ease 1;
+    -moz-animation:    animateGradient 5s ease 1;
+    animation:         animateGradient 5s ease 1;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay:    2s;
+    animation-delay:         2s; */
+    
+    height: 120vh;
+}
+.foot
+{
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    height: 120px;
+    padding: 0;
+}
+.foot p{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+/* Dark and Light Mode */
+
+.dark-out  {
+    padding: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+/* CSS styling for Dark-mode and light mode toggle */
+
+i.toggler {
+    
+    color: rgb(202, 37, 37);
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+
+    
+}
+i.toggler:hover
+{
+    transition: all .4s ease-in-out;
+    transform: scale(0.9);
+    color: silver;
+}
+
+
+.dark-mode {
+   background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(118,191,36,1) 25%,rgba(224,117,35,1) 50%,rgba(242,38,42,1) 75%,rgba(130,100,70,1) 100%);
+    background-size: 100% 400%;
+}
+
+.dark-mode .container {
+    max-width: 970px;
+    padding: 1rem;
+    color: rgb(14, 13, 13);
+    border-width: 10px;
+    border-style: solid;
+    margin: auto;
+    height: 65vh;
+    padding: 33px;
+    overflow:auto;
+    margin-bottom: 20px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(0, 0, 0, 0),
+      grey, 
+      silver, 
+      grey, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.dark-mode i.toggler {
+    color: rgb(221, 41, 41);
+}
+.dark-mode i.toggler:hover {
+    color: silver;
+}
+.dark-mode #messageinp
+{
+    border: 2px solid rgb(199, 138, 120);
+}
+.dark-mode .message:hover
+{
+    background-color: rgb(236, 175, 175);
+    border: 2px solid rgb(155, 61, 61);
+}
+.dark-mode .message
+{
+    border: 2px solid rgb(155, 61, 61);
+    filter: drop-shadow(2px 3.5px 4.5px rgba(231, 7, 7, 0.644));
+}
+
+
+
+/* End of CSS Styling for dark and light mode toggle */
+
+@media only screen and (min-width: 988px) and (max-width:1425px) 
+{
+
+.logo
+{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    
+    
+
+}
+
+.container {
+    max-width: 55em;
+    padding: 1rem;
+    
+}
+i.toggler {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(202, 37, 37);
+    float: right;
+    font-size: 27px;
+    cursor: pointer;
+
+    
+}
+
+}
+
+
+
+@media only screen and (min-width: 760px) and (max-width:988px) 
+{
+
+.logo
+{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+   
+    
+
+}
+
+.container {
+    max-width: auto;
+    
+}
+i.toggler {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(202, 37, 37);
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+
+    
+}
+.send{
+    padding-left: 4em;
+}
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width:760px) 
+{
+
+.logo
+{
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+   
+
+}
+
+
+i.toggler {
+    
+    color: rgb(202, 37, 37);
+    float: right;
+    font-size: 23px;
+    cursor: pointer;
+   
+}
+.box
+{
+    margin: 30px;
+}
+#send_btn
+{
+    font-size: 25px;
+    
+}
+
+#secrete_mode_btn
+{
+    
+    font-size: 25px;
+    
+}
+.send
+{
+    margin-left: 5em;
+}
+#messageinp
+{
+    height: 38px;
+}
+.btn
+{
+    width: 10%;
+    cursor: pointer;
+    height: 50px;
+    
+}
+
+}
+
+@media only screen and (min-width: 200px) and (max-width:500px) 
+{
+
+.logo
+{
+    margin: 6px;
+    width: 35px;
+    height: 35px;
+   
+
+}
+
+
+i.toggler {
+    
+    color: rgb(202, 37, 37);
+    float: right;
+    justify-content: end;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.dark-out
+{
+    padding-left: 2em;
+    display: block;
+}
+
+.send
+{
+    margin-left: 3em;
+}
+#secrete_mode_btn
+{
+    
+    font-size: 20px;
+    
+}
+#messageinp
+{
+    height: 30px;
+}
+#send_btn
+{
+    font-size: 20px;
+}
+}
