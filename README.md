@@ -7,7 +7,7 @@ Script Language : HTML, CSS, JS, Jquery script
 
 Responsive : Media Query
 
-Icons : font awesome
+Icons : font awesome, logo.png, send.png
 
 Developer : Shubham Raj and Tishya Tripathi [spsr studios]
 
