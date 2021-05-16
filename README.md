@@ -8,3 +8,7 @@ Script Language : HTML, CSS, JS, Jquery script
 Responsive : Media Query
 
 Icons : font awesome
+
+Developer : Shubham Raj and Tishya Tripathi [spsr studios]
+
+Website Live At :  https://webandandroiddevelopment.github.io/chat_room/index.html
