@@ -13,6 +13,6 @@ Icons : font awesome, logo.png, send.png
 
 Developer : Shubham Raj and Tishya Tripathi 
         
-                                 [spsr studios]
+                  [spsr studios]
 
 
