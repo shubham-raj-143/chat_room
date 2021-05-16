@@ -11,6 +11,8 @@ Responsive : Media Query
 
 Icons : font awesome, logo.png, send.png
 
-Developer : Shubham Raj and Tishya Tripathi [spsr studios]
+Developer : Shubham Raj and Tishya Tripathi 
+        
+          [spsr studios]
 
 
