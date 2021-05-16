@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chat Room</title>
+    <link rel="icon" href="/pics/logo.png" type="image/icon type">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/regular.min.js" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- CSS reference for styling -->
+</head>
+
+<body id="gradient">
+    <!-- ColorPicker -->
+    <div class="color_pick">
+    <input type="color" class="color1" name="color1" value="#170009">
+    <input type="color" class="color4" name="color4" value="#2b0000">
+    <input type="color" class="color2" name="color2" value="#03001c">
+  
+    </div>
+
+    <nav>
+        <!-- <img id="image1" class="logo" src="/pics/logo.png" alt="Chat Logo Image"> -->
+        <i id="image1" class="logo fas fa-link"></i>
+        <ul class="pre-loader">
+            <div class="first_title">
+                <li>S</li>
+                <li>E</li>
+                <li>C</li>
+                <li>R</li>
+                <li>E</li>
+                <li>T&emsp;</li>
+            </div>
+            
+                <li>C</li>
+                <li>H</li>
+                <li>A</li>
+                <li>T&emsp;</li>
+                <li>R</li>
+                <li>O</li>
+                <li>O</li>
+                <li>M</li>
+
+        </ul>
+    </nav>
+    <div class="dark-out box">
+        <div class="dark-in" style="display: none">
+            <!-- Dark Mode Icon -->
+            <a>
+                <i id="dark-mode-btn" class="toggler far fa-moon">&emsp;&emsp;&emsp;</i>
+            </a>
+    
+    
+        </div>
+        <div class="color_pick">
+            <input type="color" class="color3" name="color3" value="#6b0001">
+            <!-- <input type="color" class="color4" name="color4" value="#000001"> -->
+        
+        </div>
+    
+    </div>
+    
+    <div class="container box" id="chat_content">
+    
+    </div>
+    <div class="send">
+    
+        <form action="#" id="send-container">
+            <button class="btn" type="button"><i id="secrete_mode_btn" class="fas fa-user-secret">&emsp;</i></button>
+            <input type="text" name="messageinp" id="messageinp" placeholder="Type Something...">
+            <button class="btn" type="submit">
+                <!-- <img id="image2" src="/pics/send.png" alt="send img"> -->
+                <i id="send_btn" class="fas fa-paper-plane"></i>
+            </button>
+    
+        </form>
+    </div>
+    <br><br><br>
+    
+    <footer class="foot" style="color: wheat; background: black;">
+        <hr>
+            <p>&#169; Copyright spsr studios 2021</p>
+            <p>Developers: Shubham Raj & Tishya Tripathi</p>
+
+    </footer>
+
+    <script defer src="/js/script.js"></script>
+    
+    
+    
+    </body>
+
+
+
+</body>
+
+</html>
