@@ -201,7 +201,7 @@ body{
     justify-content: center;
     align-items:center;
     margin: auto;
-    height: 120px;
+    height: 30%;
     padding: 0;
 }
 .foot p{
@@ -456,5 +456,8 @@ i.toggler {
 #send_btn
 {
     font-size: 20px;
+}
+.btn{
+    margin-left: 20px;
 }
 }
