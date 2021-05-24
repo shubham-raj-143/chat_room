@@ -6,7 +6,7 @@ Crux ✨ : After viewing the chat [basically hovering chat] it gets automaticall
 Full Demo {FRONT end + BACK end} video 📽 : https://github.com/webandandroiddevelopment/chat_room/blob/main/FullDemoVideo.mp4
 
 
-Website Live At [Only frontend Deployed]: 🖇    
+Website Deployed At [Only frontend Deployed]: 🖇    
 1.> https://webandandroiddevelopment.github.io/chat_room/index.html
 
 2.> https://secretchatspsr.herokuapp.com/
