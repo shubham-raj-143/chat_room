@@ -3,7 +3,7 @@ The Website Room For Secret Chat with Custom Color Mixer and NodeServer port.
 
 Crux : After viewing the chat [basically hovering chat] it gets automatically deleted from receivers chatbox.
 
-Full Demo{FRONT end + BACK end} video :: https://github.com/webandandroiddevelopment/chat_room/blob/main/FullDemoVideo.mp4
+Full Demo {FRONT end + BACK end} video ::: https://github.com/webandandroiddevelopment/chat_room/blob/main/FullDemoVideo.mp4
 
 
 Website Live At [Only frontend Deployed]:     
