@@ -7,7 +7,7 @@ Full Demo {FRONT end + BACK end} video 📽 : https://github.com/webandandroidde
 
 
 Website Deployed At [Only frontend Deployed]: 🖇    
-1.> https://webandandroiddevelopment.github.io/chat_room/index.html
+1.> https://shubham-raj-143.github.io/chat_room/index.html
 
 2.> https://secretchatspsr.herokuapp.com/
 
